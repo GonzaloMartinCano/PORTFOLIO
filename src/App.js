@@ -17,11 +17,11 @@ function App() {
 
 
       <Switch>
-        <Route path="/" exact render={() => <Index/>} />
-        <Route path="/resume" exact render={() => <Skills />} />
-        <Route path="/projects" exact render={() => <Projects />} />
-        <Route path="/contact" exact render={() => <Contact />} />
-        <Route path="/" render={() => <Notfound/>} />
+        <Route path="/PORTFOLIO/" exact render={() => <Index/>} />
+        <Route path="/PORTFOLIO/resume" exact render={() => <Skills />} />
+        <Route path="/PORTFOLIO/projects" exact render={() => <Projects />} />
+        <Route path="/PORTFOLIO/contact" exact render={() => <Contact />} />
+        <Route path="/PORTFOLIO/" render={() => <Notfound/>} />
 
       </Switch>
 

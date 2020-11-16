@@ -18,7 +18,7 @@ export default class Index extends Component {
       <Fade>
       <Row className="index">
           <Col xs={5} md={4} className="skills-img order-1 order-md-0">
-            <Link to="resume">
+            <Link to="/resume">
               <img style={{ width: "60.5%" }} src={skills} alt="skills_img"/>
               <h1>See my skills</h1>
             </Link>
