@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from 'react-router-dom';
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import Card from "react-bootstrap/Card"
@@ -6,9 +7,11 @@ import Container from "react-bootstrap/Container"
 import Modal from "react-bootstrap/Modal"
 import Button from "react-bootstrap/Button"
 import projectsList from './../../data/projectList'
+import GitHubIcon from '@material-ui/icons/GitHub';
 import img1 from './../../img/Uptoyou_portada.png'
 import img2 from './../../img/Cub3d_portada.png'
 import img3 from './../../img/Bizzdash_portada.png'
+import img4 from './../../img/Shinobi.png'
 
 import "./Projects.css";
 import Spinner from "./../spinner/Spinner"
@@ -21,7 +24,7 @@ const Projects = () => {
 
   
   const projectslist = projectsList
-  const projectImages = [img1, img2, img3] 
+  const projectImages = [img1, img2, img3, img4] 
 
 
   
@@ -72,7 +75,9 @@ const Projects = () => {
         </div>
           <hr />
           <p>{projectslist[Number(showy)].description}</p>
-          <div className="project_img">
+          <Link to={{ pathname: projectslist[Number(showy)].link }} target="_blank" ><GitHubIcon style={{ fontSize: 40}}/></Link>
+
+          <div className=" languages_img">
 
           <img src={projectsList[Number(showy)].languages} alt="languages_img"/>
           </div>

@@ -49,6 +49,11 @@
     text-align: center;
 }
 
+.languages_img img{
+    width: 300px;
+    margin-top: 0;
+}
+
 @media (max-width: 360px){
     .project_img img {
         width: 250px;
@@ -106,7 +111,7 @@
         margin-top: 30px;
     }
     p {
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
 }
 

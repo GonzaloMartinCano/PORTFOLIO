@@ -7,7 +7,7 @@ import Index from './components/index/Index'
 import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
-import Notfound from './components/notfound/Notfound'
+
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
         <Route path="/PORTFOLIO/resume" exact render={() => <Skills />} />
         <Route path="/PORTFOLIO/projects" exact render={() => <Projects />} />
         <Route path="/PORTFOLIO/contact" exact render={() => <Contact />} />
-        <Route path="/PORTFOLIO/" render={() => <Notfound/>} />
 
 
       </Switch>

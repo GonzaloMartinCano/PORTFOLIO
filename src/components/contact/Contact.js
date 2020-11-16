@@ -26,11 +26,15 @@ export default class Contact extends Component {
             <br/>
             <h2>FULL STACK DEVELOPER</h2>
             <br/>
-              <p>You cand send me an email to:<br /> <br /> <a href="mailto:gmcano85@gmail.com?subject=Contact through portfolio"style={{color: 'white'}}>gmcano85@gmail.com</a> <br /> <br />
+              <p>
+                You cand send me an email to:
+              <br /> <br />
+                <a href="mailto:gmcano85@gmail.com?subject=Contact through portfolio" style={{ color: 'white' }}>gmcano85@gmail.com</a>
+              <br /> <br />
                 Or find my on my Social Networks: 
               </p>
               <div className="icons">
-                <Link to={{ pathname: "https://github.com/Zalillo18" }}><GitHubIcon style={{ fontSize: 50 }}/></Link>
+                <Link to={{ pathname: "https://github.com/Zalillo18" }} target="_blank"><GitHubIcon style={{ fontSize: 50 }}/></Link>
                 <Link to={{pathname: "https://www.linkedin.com/in/gonzalomartincano/"}} target="_blank"> <LinkedInIcon style={{ fontSize: 50 }}/> </Link>
               </div>
           </Card>
