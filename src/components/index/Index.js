@@ -32,7 +32,7 @@ export default class Index extends Component {
             <br/>
             <h2>FULL STACK DEVELOPER</h2>
             <br/>
-            <p>"If i can develop, I can fly"</p>
+            <p>"If I can develop, I can fly"</p>
           </Card>
         </Col>
 

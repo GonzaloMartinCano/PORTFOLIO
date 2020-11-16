@@ -22,7 +22,6 @@ function App() {
         <Route path="/PORTFOLIO/projects" exact render={() => <Projects />} />
         <Route path="/PORTFOLIO/contact" exact render={() => <Contact />} />
 
-
       </Switch>
 
      

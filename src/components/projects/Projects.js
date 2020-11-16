@@ -75,12 +75,13 @@ const Projects = () => {
         </div>
           <hr />
           <p>{projectslist[Number(showy)].description}</p>
-          <Link to={{ pathname: projectslist[Number(showy)].link }} target="_blank" ><GitHubIcon style={{ fontSize: 40}}/></Link>
+          
+        <Link to={{ pathname: projectslist[Number(showy)].link }} target="_blank" ><GitHubIcon style={{ fontSize: 40}}/></Link>
 
-          <div className=" languages_img">
+        <div className=" languages_img">
 
           <img src={projectsList[Number(showy)].languages} alt="languages_img"/>
-          </div>
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="primary" onClick={handleClose}>
