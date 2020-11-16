@@ -1,0 +1,118 @@
+.listprojects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project_card {
+    min-height: 350px;
+    max-height: 400px;
+    box-shadow: 0px 0px 10px #7abcff;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-bottom : 30px;
+}
+
+.project_card:hover {
+    box-shadow: 0px 0px 30px #7abcff;
+}
+.project_card h1 {
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+.project_img{
+    display: flex;
+    justify-content: center;
+} 
+
+.project_img img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.project_card p{
+    color: black;
+}
+
+.card-button {
+    width: 80px;
+    align-self: center;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #07192f;
+    
+}
+
+.modal {
+    color: black;
+    justify-self: center;
+    text-align: center;
+}
+
+@media (max-width: 360px){
+    .project_img img {
+        width: 250px;
+    }
+    .project_card {
+        min-height: 300px;
+        max-height: 400px;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .video {
+        width: calc(100vw / 1.2 );
+        height: calc((100vw / 1.5 ) )
+    }
+}
+
+@media (min-width: 600px) {
+    .video {
+        width: calc(100vw / 2 );
+        height: calc((100vw / 3 ) )
+    }
+}
+
+@media (min-width: 1024px) and (max-height: 900px) {
+    .video {
+        width: calc(100vw / 2 );
+        height: calc((100vw / 5 ) )
+    }
+    .project_card {
+        min-height: 285px;
+        max-height: 300px;
+        box-shadow: 0px 0px 10px #7abcff;
+        margin-top: 0px;
+        border-radius: 30px;
+        margin-bottom : 20px;
+    }
+    .project_card h1 {
+       margin-top: 5px;
+    }
+    .card-button{
+        font-size: 0.6rem;
+       
+    }
+    .project_img img {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 1024px) and (min-height: 900px) {
+    .project_img img {
+        margin-top: 30px;
+    }
+    p {
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .video {
+        width: calc(100vw / 2.5 );
+        height: calc((100vw / 5 ) )
+    }
+}
