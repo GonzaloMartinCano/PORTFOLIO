@@ -18,7 +18,7 @@ export default class Index extends Component {
       <Fade>
       <Row className="index">
           <Col xs={5} md={4} className="skills-img order-1 order-md-0">
-            <Link to="/resume">
+            <Link to="/PORTFOLIO/resume">
               <img style={{ width: "60.5%" }} src={skills} alt="skills_img"/>
               <h1>See my skills</h1>
             </Link>
@@ -37,7 +37,7 @@ export default class Index extends Component {
         </Col>
 
           <Col xs={5} md={4} className="skills-img order-2 order-md-2">
-            <Link to="/projects">
+            <Link to="/PORTFOLIO/projects">
               <img style={{width: "100%"}} src={projects} alt="projects_img" />
               <h1>See my projects</h1>
             </Link>

@@ -12,7 +12,7 @@ export default class Notfound extends Component {
      
       <Row className="index">
 
-        <Col md={9} className="notfound" >
+        <Col md={12} className="notfound" >
           <div className="profile-img">
             <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGwHQirvTBv9w/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=XFJKez042YbiVKDwmyzHrC7zcpWr8gZsiU1BwSU9dDs"  alt="profile_img" />
           </div>

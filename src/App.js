@@ -6,8 +6,8 @@ import Navbar from './components/navbar/Navbar'
 import Index from './components/index/Index'
 import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
-import Notfound from './components/notfound/Notfound'
 import Contact from './components/contact/Contact'
+import Notfound from './components/notfound/Notfound'
 
 function App() {
   return (
@@ -17,11 +17,12 @@ function App() {
 
 
       <Switch>
-        <Route path="/PORTFOLIO/" exact render={() => <Index/>} />
+        <Route path="/PORTFOLIO/" exact render={() => <Index/>} /> 
         <Route path="/PORTFOLIO/resume" exact render={() => <Skills />} />
         <Route path="/PORTFOLIO/projects" exact render={() => <Projects />} />
         <Route path="/PORTFOLIO/contact" exact render={() => <Contact />} />
         <Route path="/PORTFOLIO/" render={() => <Notfound/>} />
+
 
       </Switch>
 

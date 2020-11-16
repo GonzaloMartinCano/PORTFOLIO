@@ -22,9 +22,7 @@ const Projects = () => {
   
   const projectslist = projectsList
   const projectImages = [img1, img2, img3] 
-  
-  
-  console.log("entro")
+
 
   
   return (
@@ -36,7 +34,7 @@ const Projects = () => {
 
             projectslist.map( (elm, index) => 
 
-            <Col md={6} lg={5} >
+            <Col md={6} lg={5} key={index} >
               <Card className="project_card">
                   <div className="project_img">
                     {projectslist[index].img ? <img src={projectImages[index]} alt="porject_img" /> : <Spinner/>}
@@ -69,7 +67,7 @@ const Projects = () => {
       </Modal.Header>
       <Modal.Body >
         <div className="embedResponsive embedResponsive21by9">
-            <iframe className="video" src={projectslist[Number(showy)].video} alt="project_iframe"></iframe>
+            <iframe title={showy} className="video" src={projectslist[Number(showy)].video}></iframe>
             <p style={{fontSize: "0.5rem"}}>*Recommend: change the resolution in the video options to see it clearly</p>
         </div>
           <hr />
