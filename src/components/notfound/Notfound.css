@@ -1,0 +1,17 @@
+.mycardnotfound {
+    background-color: #07192f;
+    width: 50%;
+    margin: auto;
+    border-radius: 50px;
+    padding: 30px;
+    border-color: white;
+    box-shadow: 0px 0px 15px red;
+}
+
+.mycardnotfound:hover {
+    box-shadow: 0px 0px 40px red;
+}
+  
+.mycardnotfound p{
+    font-weight: 800;
+}

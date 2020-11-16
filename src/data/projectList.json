@@ -1,0 +1,27 @@
+[
+{
+    "name": "UPTOYOU",
+    "title": "Martketplace Open source",
+    "description": "This project has been carried out as a final project of Ironhack bootcamp (14 days term). It is a multi-store Marketplace where any user can start selling. Register/login, listings, filters and categories, listing pages, shopping cart, add product, edit, delete.",
+    "languages": "https://drive.google.com/uc?id=1zkDzEPutj4FrtEOGPA9ZI4bWMp2On8PH",
+    "img": "https://drive.google.com/uc?id=1nwcvMdRHrvlZ7IJGMI_Hm8H-LjnrXIzV",
+    "video": "https://drive.google.com/file/d/1WpgGJuvUQnLJjGIhkNg_TKQotKqY3lqT/preview"
+},
+{
+    "name": "CUB3D",
+    "title": "The first FPS game with raycasting technique.",
+    "description": "This project has been done as an 42Madrid project. It is inspired by the world-famous game, considered the first FPS ever made. It will allow you to explore the ray-casting technique. The objective will be to create a dynamic view within a map, in which to observe different textures for walls, objects, etc.",
+    "languages": "https://drive.google.com/uc?id=1-guuBFrAzI8dbGB4d0198sYDwaVC8fIr",
+    "img": "https://drive.google.com/uc?id=17j1R_PME6FwMB0smadBaTO-DQsOWVJUD",
+    "video": "https://drive.google.com/file/d/1zITHfNLtFuiywTC3bl9VRX_fR8lRaluH/preview"
+},
+{
+    "name": "BIZZDASH",
+    "title": "Businees dashboard.",
+    "description": "This project has been done as an Ironhack bootcamp project (within 7 days). Allows users to create and share their professional profiles. Includes a personalized dashboard with jobs and offers information. It is a single page application, so in a single view you can create, edit and view your profile.",
+    "languages": "https://drive.google.com/uc?id=14i9E7KiSMkTKNh7kD5p8WGSD5lA1j_u1",
+    "img": "https://drive.google.com/uc?id=1gi5qenBm9t6fHFMde4nCtO0uHZmSBXla",
+    "video": "https://drive.google.com/file/d/1zcy8SAdVvHNhjoW4GyiRA3eDrJZ4Do5W/preview"
+}
+]
+
