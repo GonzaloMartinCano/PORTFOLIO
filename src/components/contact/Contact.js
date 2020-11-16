@@ -34,7 +34,7 @@ export default class Contact extends Component {
                 Or find my on my Social Networks: 
               </p>
               <div className="icons">
-                <Link to={{ pathname: "https://github.com/Zalillo18" }} target="_blank"><GitHubIcon style={{ fontSize: 50 }}/></Link>
+                <Link to={{ pathname: "https://github.com/gonzalomartincano" }} target="_blank"><GitHubIcon style={{ fontSize: 50 }}/></Link>
                 <Link to={{pathname: "https://www.linkedin.com/in/gonzalomartincano/"}} target="_blank"> <LinkedInIcon style={{ fontSize: 50 }}/> </Link>
               </div>
           </Card>
