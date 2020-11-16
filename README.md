@@ -1,4 +1,4 @@
-Hi! I'm Gonzalo Martín Cano, Full Stack Developer. <h1> tag
+ <h1> Hi! I'm Gonzalo Martín Cano, Full Stack Developer.
 
 Welcome to my Portfolio!
 
