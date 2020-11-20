@@ -31,7 +31,7 @@ export default class Contact extends Component {
               <br /> <br />
                 <a href="mailto:gmcano85@gmail.com?subject=Contact through portfolio" style={{ color: 'white' }}>gmcano85@gmail.com</a>
               <br /> <br />
-                Or find my on my Social Networks: 
+                Or find me on my Social Networks: 
               </p>
               <div className="icons">
                 <Link to={{ pathname: "https://github.com/gonzalomartincano" }} target="_blank"><GitHubIcon style={{ fontSize: 50 }}/></Link>
