@@ -9,6 +9,7 @@ import { Fade } from "react-awesome-reveal";
 
 import skills from "./../../img/brain2.png"
 import projects from "./../../img/proyectos.png"
+import profile_img from "./../../img/Gonzalo_profile.jpeg"
 
 import "./Index.css";
 
@@ -25,7 +26,7 @@ export default class Index extends Component {
         </Col>
         <Col xs={9} md={4} className="profile-info order-0 order-md-1">
           <div className="profile-img">
-            <img src="https://drive.google.com/file/d/1NoJaoCCiQukkEi7BDFs3PhvsnF2D1cSn/preview" alt="profile_img"/>
+            <img src={profile_img} alt="profile_img"/>
           </div>
           <Card className="mycard ">
             <h1>Gonzalo Martín Cano</h1>

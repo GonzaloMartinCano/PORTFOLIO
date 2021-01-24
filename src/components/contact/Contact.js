@@ -7,6 +7,8 @@ import Col from "react-bootstrap/Col"
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
+import profile_img from "./../../img/Gonzalo_profile.jpeg"
+
 import { Fade } from "react-awesome-reveal";
 
 import "./Contact.css";
@@ -19,7 +21,7 @@ export default class Contact extends Component {
 
         <Col xs={9} md={4} className="profile-info order-0 order-md-1">
           <div className="profile-img">
-            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGwHQirvTBv9w/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=XFJKez042YbiVKDwmyzHrC7zcpWr8gZsiU1BwSU9dDs" alt="profile_img"/>
+            <img src={profile_img} alt="profile_img"/>
           </div>
           <Card className="mycard ">
             <h1>Gonzalo Martín Cano</h1>
