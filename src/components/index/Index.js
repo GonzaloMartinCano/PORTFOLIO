@@ -25,7 +25,7 @@ export default class Index extends Component {
         </Col>
         <Col xs={9} md={4} className="profile-info order-0 order-md-1">
           <div className="profile-img">
-            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGwHQirvTBv9w/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=XFJKez042YbiVKDwmyzHrC7zcpWr8gZsiU1BwSU9dDs" alt="profile_img"/>
+            <img src="https://drive.google.com/file/d/1NoJaoCCiQukkEi7BDFs3PhvsnF2D1cSn/preview" alt="profile_img"/>
           </div>
           <Card className="mycard ">
             <h1>Gonzalo Martín Cano</h1>
