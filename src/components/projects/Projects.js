@@ -40,7 +40,7 @@ const Projects = () => {
             <Col md={6} lg={5} key={index} >
               <Card className="project_card">
                   <div className="project_img">
-                    {projectslist[index].img ? <img src={projectImages[index]} alt="porject_img" /> : <Spinner/>}
+                    {projectslist[index].img ? <img src={projectImages[index]} alt="project_img" /> : <Spinner/>}
                   </div>
                   <h1>{elm.name}</h1>
                 <p>{elm.title}</p>
