@@ -62,7 +62,7 @@ export default class Skills extends Component {
                     <Card xs={10} md={5} className="table hvr-grow">
                         <h1>Experience</h1>
                         <hr />
-                        
+                        <h4>Currently a full stack developer.</h4>
                         <h4>2 years like entrepeneur and freelance trainer.</h4>
                         <h4>7 years like advisor for large & medium companies.</h4>
                         <h4>4 years in a Health & Safety Dpt. in differents companies.</h4>
